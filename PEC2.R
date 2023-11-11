@@ -77,14 +77,12 @@ parent_child_graph <- graph_from_data_frame(parent_child_edges, directed = T)
 
 # Plots the arc diagram for parent-child relationships using ggraph and igraph
 ggraph(parent_child_graph, layout = "linear") +
-  geom_edge_arc(aes(alpha = ..index..), color = "blue") +
+  geom_edge_arc(aes(alpha = after_stat(index)), color = "blue") +
   geom_node_text(aes(label = name), size = 3, angle = 90, hjust = 1, vjust = 0.5,
                  check_overlap = T) +
   theme_void() +
   theme(legend.position = "none") +
   labs(title = "Dark Netflix Parent-Child Relationships")
-
-
 
 # Part III: 
 
