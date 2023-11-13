@@ -1,12 +1,13 @@
 # PEC2
 PEC2 del curso Visualización de datos de Master Universitario en Ciencia de Datos de la UOC
 
+Un video explicativo se encuentra al link: https://clipchamp.com/watch/E3KWPMRtTSD?utm_source=share&utm_medium=social&utm_campaign=watch
+
 En este respository se encuentran:
 1) El códido en R para crear los gráficos
 2) Un documento con lso enlaces a los datasets utilizados
 3) Los datasets utilizados
 4) Los gráficos generados en formato .PNG
-5) Un video explicativo del projecto
   Ademas se encuentra:
 6) Una representación de las relaciones padre-hijo de la TV series Dark para comprobar el arc diagram generado (imágen encontrada en Google)
 
